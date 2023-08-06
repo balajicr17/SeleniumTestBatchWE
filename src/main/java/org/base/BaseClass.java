@@ -28,8 +28,11 @@ public class BaseClass {
 		return driver;
 
 	}
-	public void getPage(String url) {
+
+	public WebDriver getPage(String url) {
 		driver.get(url);
+
+		return driver;
 
 	}
 
